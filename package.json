@@ -1,0 +1,16 @@
+{
+  "name": "hourglasschart",
+  "dependencies": {
+    "@types/d3": "^3.5.40",
+    "d3": "^3.5.5",
+    "d3-textwrap": "^2.0.2",
+    "i": "^0.3.6",
+    "jquery": "^3.3.1",
+    "powerbi-visuals-utils-chartutils": "^1.7.0",
+    "powerbi-visuals-utils-dataviewutils": "1.2.0",
+    "powerbi-visuals-utils-formattingutils": "^3.0.1",
+    "powerbi-visuals-utils-tooltiputils": "^1.0.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
+  }
+}

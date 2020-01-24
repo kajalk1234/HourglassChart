@@ -1,0 +1,48 @@
+@import (less) "node_modules/powerbi-visuals-utils-formattingutils/lib/index.css";
+@import (less) "node_modules/powerbi-visuals-utils-interactivityutils/lib/index.css";
+@import (less) "node_modules/powerbi-visuals-utils-chartutils/lib/index.css";
+p {
+    font-size: 20px;
+    font-weight: bold;
+    em {
+        background: yellow;
+        padding: 5px;
+        
+    }
+}
+.categoryLabelContainer
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#textToDisplay{
+    font-size: 20px;
+    color: #000000;
+    height: 100%;
+    width: 1250px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    top: 0px;
+}
+
+.labelValue
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.measureLabel,.measureLabelDest
+{
+    position: absolute;
+}
+
+
+.mainContainer ,.legend {
+    cursor: default;
+}
+.conversionMsgContainer
+{
+    position: absolute;
+    overflow: hidden;
+}
