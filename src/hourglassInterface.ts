@@ -37,7 +37,6 @@ export interface ILegendConfig {
 
 export interface ITooltipDataPoints {
   name: string;
-  // tslint:disable-next-line:no-any
   value: any;
   formatter: string;
 }
@@ -53,23 +52,19 @@ export interface ICategoryLabelSettings {
    fontSize: number;
 }
 
-// tslint:disable-next-line:max-classes-per-file
 export interface ISeparatorSettings {
    show: boolean;
    color: string ;
    strokeWidth: number;
    lineType: string ;
 }
-// tslint:disable-next-line:max-classes-per-file
 export interface ILegendSettings {
     show: boolean;
     position: string;
 }
-// tslint:disable-next-line:max-classes-per-file
 export interface IEnableTooltipSettings {
    show: boolean ;
 }
-// tslint:disable-next-line:max-classes-per-file
 export interface IConversionSettings {
    show: boolean ;
    label: string ;
@@ -81,7 +76,6 @@ export interface IConversionSettings {
    displayValue: string;
 }
 // Interface for Detail Labels
-// tslint:disable-next-line:max-classes-per-file
 export interface IDetailLabelSettings {
    show: boolean ;
    fontFamily: string;

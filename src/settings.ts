@@ -233,8 +233,7 @@ module powerbi.extensibility.visual {
     };
   }
   export module DataViewObjects {
-    /** Gets the value of the given object/property pair. */
-    // tslint:disable-next-line:no-shadowed-variable
+    //Gets the value of the given object/property pair. //
     export function getValue<T>(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultValue?: T): T {
       if (!objects) { return defaultValue; }
       const objectOrMap: DataViewObject = objects[propertyId.objectName];
@@ -421,7 +420,6 @@ module powerbi.extensibility.visual {
 
   }
 
-  // tslint:disable-next-line:no-any
   export function enumerateColorSetting(visualModel: any,
                                         instance: VisualObjectInstance[], objectName: string): void {
 
