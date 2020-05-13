@@ -35,7 +35,6 @@
                     "integer": true
                 }
             ]
-
         },
         {
             "displayName": "Tooltip",
@@ -362,7 +361,6 @@
                         ]
                     }
                 }
-
             }
         },
         "rotationSettings": {
@@ -400,12 +398,12 @@
                         "bool": true
                     }
                 },
-            "showFlip" : {
-                "displayName": "Data label flip",
-                "type": {
-                    "bool": true
+                "showFlip": {
+                    "displayName": "Data label flip",
+                    "type": {
+                        "bool": true
+                    }
                 }
-            }
             }
         },
         "legend": {
@@ -622,7 +620,7 @@
                         "in": "category"
                     },
                     "dataReductionAlgorithm": {
-                        "top": {}
+                        "top": {"count": 100}
                     }
                 },
                 "values": {
@@ -647,7 +645,7 @@
             }
         }
     ],
-                    "sorting": {
-                    "default": {}
-                }
-        }
+    "sorting": {
+        "default": {}
+    }
+}
