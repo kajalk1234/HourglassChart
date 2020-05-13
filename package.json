@@ -12,7 +12,7 @@
     "powerbi-visuals-utils-dataviewutils": "1.5.0",
     "powerbi-visuals-utils-formattingutils": "3.0.1",
     "powerbi-visuals-utils-tooltiputils": "1.1.1",
-    "typescript": "^2.8.3"
+    "typescript": "3.4.5"
   },
   "scripts": {
     "lint": "tslint -c tslint.json -p tsconfig.json"

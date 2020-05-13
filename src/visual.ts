@@ -243,7 +243,6 @@ module powerbi.extensibility.visual {
             if (options.dataViews[0].categorical.hasOwnProperty('values')) {
                 len = options.dataViews[0].categorical.values.length;
             } else { this.displayBasicRequirement(4); return; }
-            if (dataViews[0].categorical.categories[0].values.length > 100) { this.displayBasicRequirement(5); return; }
             for (let index: number = 0; index < len; index++) {
                 if (options.dataViews[0].categorical.values[index].source.roles.hasOwnProperty(Visual.sourceStringLiteral)) {
                     iIndexOfSource = 2;
@@ -352,9 +351,6 @@ module powerbi.extensibility.visual {
                     break;
                 case 4:
                     document.getElementById('textToDisplay').textContent = `Please select 'Source' and 'Destination'`;
-                    break;
-                case 5:
-                    document.getElementById('textToDisplay').textContent = `Data Limit exceeded`;
                     break;
                 default:
                     break;
